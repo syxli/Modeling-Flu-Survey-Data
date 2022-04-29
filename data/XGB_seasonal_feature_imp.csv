@@ -1,0 +1,16 @@
+feature,importance
+doctor_recc_seasonal,0.118556745
+opinion_seas_vacc_effective,0.105583325
+opinion_seas_risk,0.07714282
+age_group,0.05682727
+health_insurance,0.026104039
+health_worker,0.025488043
+rent_or_own,0.015570595
+employment_industry,0.015452205
+h1n1_knowledge,0.013706751
+doctor_recc_h1n1,0.013387637
+employment_occupation,0.01321384
+opinion_seas_sick_from_vacc,0.011968439
+chronic_med_condition,0.011505478
+opinion_h1n1_risk,0.010336437
+education,0.010062362
