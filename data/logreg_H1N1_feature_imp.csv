@@ -1,0 +1,15 @@
+feature,importance
+doctor_recc_h1n1,-2.0351
+employment_industry,-1.1842
+health_insurance,0.9585
+health_worker,-0.7649
+employment_occupation,-0.6684
+doctor_recc_seasonal,0.5689
+opinion_h1n1_vacc_effective,-0.5145
+education,-0.4635
+opinion_h1n1_risk,-0.4221
+chronic_med_condition,-0.3506
+hhs_geo_region,0.2608
+rent_or_own,-0.2524
+age_group,-0.2487
+behavioral_antiviral_meds,-0.202

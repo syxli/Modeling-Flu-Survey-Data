@@ -1,0 +1,16 @@
+feature,importance
+opinion_h1n1_vacc_effective,0.11457263
+health_insurance_no_response,0.10774433
+opinion_h1n1_risk,0.08339368
+h1n1_knowledge,0.0695843
+behavioral_large_gatherings,0.05283428
+marital_status_Not Married,0.05175058
+rent_or_own_Rent,0.03976758
+behavioral_touch_face,0.0354619
+opinion_seas_risk,0.032780346
+opinion_seas_vacc_effective,0.027050933
+education_< 12 Years,0.0197429
+behavioral_avoidance,0.019139366
+doctor_recc_h1n1,0.019076895
+behavioral_outside_home,0.01748058
+household_adults,0.017237399
