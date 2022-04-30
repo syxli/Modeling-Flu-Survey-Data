@@ -126,7 +126,7 @@ Accuracy| 0.779|0.848|
 AUC | 0.854 |0.856|
 
 
-Next, knowing that H1N1 and seasonal flu vaccination were dependent on each other, we tried using seasonal flu as a predictor for H1N1 vaccination. While using the given target column for seasonal flu vaccine yielded marginally better modele for H1N1 vaccination, using a predicted value of seasonal flu vaccination as a predictor did not improve performance. Values for accuracy score comparing the preliminary model and models using the *known* `seasonal_vaccine` classes are shown below: 
+Next, knowing that H1N1 and seasonal flu vaccination were dependent on each other, we tried using seasonal flu as a predictor for H1N1 vaccination. While using the given target column for seasonal flu vaccine yielded marginally better modele for H1N1 vaccination, using a predicted value of seasonal flu vaccination as a predictor did not improve performance. Values for AUROC score comparing the preliminary model and models using the *known* `seasonal_vaccine` classes are shown below: 
 
 Model | Preliminary Model | Using `seasonal_vaccine` as predictor|
 ------|:------------------:|:------------------------------:|
