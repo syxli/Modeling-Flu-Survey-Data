@@ -81,14 +81,14 @@ We first performed exploratory data analysis and null imputation on our dataset 
 
 **Exploring Nulls**: The survey was done over phone and respondents were allowed to refuse to respond to any question asked. These represented a large portion of the nulls in the data. To better understand the distribution of nulls, we first examine which features had the most missing data (Figure 2 (Left)) and discovered that some features were missing upto half of their data. Next, we compared the number of nulls to the page number on the survey questions script that the question appeared on. We found that as the survey progressed, the number of null values increased (Figure 2 (Right)).    
 
-<img src="figures/page_num_nulls.png" height=500 />
+<img src="figures/page_num_nulls.png" height=300 />
 
 ###### **Figure 2.** ***Left**: A barchart of the top 10 of 36 features that had the most number of nulls. **Right**: A scatterplot of the number of null values in a given feature column versus the page number that the corresponding question appears on in the survey. There is a clear increase in the number of nulls as the survey progresses.*
 
 **Imputing Nulls**: Nulls were replaced according to the following procedure:
 We looked closely at the distribution of values and replaced the missing observations with either the median, or proportionally with respect to the distribution of the feature across different age groups of respondants. For instance, as seen in Figure 3., the missing values in the feature `household_children` were replaced with values that maintained the same proportion of responses across the different age groups. 
 
-<img src="figures/household_children_null_replacement.png" height=700 />
+<img src="figures/household_children_null_replacement.png" height=400 />
 
 ###### Figure 3. *Tables showing the distribution of values across different age groups before (**Left**) and after (**Right**) null replacement for the feature `household_children`*
 
