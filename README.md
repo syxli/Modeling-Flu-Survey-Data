@@ -100,7 +100,7 @@ Our target variables were `H1N1_vaccine` and `seasonal_vaccine`, both of which h
 
 Additionally, looking at the interaction between the two target variables, we found that receiving the H1N1 vaccine and receiving the Seasonal flu vaccine were statistically dependent events. In fact, while the probability that a respondent received the seasonal vaccine was 47%, the probability that a respondent received the seasonal vaccine given they received the H1N1 vaccine was 82%. 
 
-<img src="figures/target_classes.png" width=700 />
+<img src="figures/target_classes.png" width=900 />
 
 ###### Figure 4.***Left**. Number of positive and negative classes for each target variable. H1N1 Vaccine: 21% vaccinated, and 79% unvaccinated; Seasonal Vaccine: 47% vaccinated, and 53% unvaccinated. **Right**  Bar graph showing that the two target variables were not independent of eachother.*
 
