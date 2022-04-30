@@ -88,7 +88,7 @@ We first performed exploratory data analysis and null imputation on our dataset 
 **Imputing Nulls**: Nulls were replaced according to the following procedure:
 We looked closely at the distribution of values and replaced the missing observations with either the median, or proportionally with respect to the distribution of the feature across different age groups of respondants. For instance, as seen in Figure 3., the missing values in the feature `household_children` were replaced with values that maintained the same proportion of responses across the different age groups. 
 
-<img src="figures/household_children_null_replacement.png" height=600 />
+<img src="figures/household_children_null_replacement.png" height=400 />
 
 ###### Figure 3. *Tables showing the distribution of values across different age groups before (**Left**) and after (**Right**) null replacement for the feature `household_children`*
 
@@ -100,7 +100,7 @@ Our target variables were `H1N1_vaccine` and `seasonal_vaccine`, both of which h
 
 Additionally, looking at the interaction between the two target variables, we found that receiving the H1N1 vaccine and receiving the Seasonal flu vaccine were statistically dependent events. In fact, while the probability that a respondent received the seasonal vaccine was 47%, the probability that a respondent received the seasonal vaccine given they received the H1N1 vaccine was 82%. 
 
-<img src="figures/target_classes.png" width=600 />
+<img src="figures/target_classes.png" width=700 />
 
 ###### Figure 4.***Left**. Number of positive and negative classes for each target variable. H1N1 Vaccine: 21% vaccinated, and 79% unvaccinated; Seasonal Vaccine: 47% vaccinated, and 53% unvaccinated. **Right**  Bar graph showing that the two target variables were not independent of eachother.*
 
@@ -180,7 +180,7 @@ Logistic Regression| 0.803| 0.789 | 0.928 |0.813|
 XGBoost| 0.852|0.730|0.879|0.942|
 Neural Network|0.823|0.897|0.790|0.873|
 
-<img src="figures/H1N1_initial_metrics.PNG" height=400 />
+<img src="figures/H1N1_initial_metrics.png" height=400 />
 
 ###### Figure 6.*Radar charts comparing performance metrics for predicting H1N1 vaccination.*
 
@@ -213,7 +213,7 @@ XGBoost feat.engg + SMOTE|0.839|0.886|0.913|0.740|
 XGBoost feat as is + SMOTE|0.839|0.886|0.913|0.739|
 XGBoost feat. as is|0.847|0.871|0.945|0.714|
 
-<img src="figures/feature_selection_h1n1.png" height=400 />
+<img src="figures/feature_selection_h1n1.PNG" height=400 />
 
 ###### Figure 8.*Radar charts comparing performance metrics for predicting H1N1 vaccination using either only the top 15 features or the full feature set.*
 
